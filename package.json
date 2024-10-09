@@ -19,7 +19,6 @@
     "pretty-quick": "^4.0.0"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.js": "eslint"
   }
 }
